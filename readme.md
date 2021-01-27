@@ -1,6 +1,24 @@
 项目名称:多点超市
 
-项目介绍:多点超市app是一款超市应用,为用户提供便捷的超市购物,海量商品任用户挑选,极速配送,为用户提供便捷的购物体验.<img src="C:\Users\Administrator\Pictures\QQ图片20210127154659.jpg" style="zoom:25%;" /><img src="C:\Users\Administrator\Pictures\QQ图片20210127154707.jpg" style="zoom:25%;" /><img src="C:\Users\Administrator\Pictures\QQ图片20210127154721.jpg" style="zoom:25%;" /><img src="C:\Users\Administrator\Pictures\QQ图片20210127154704.jpg" style="zoom:25%;" />
+项目介绍:多点超市app是一款超市应用,为用户提供便捷的超市购物,海量商品任用户挑选,极速配送,为用户提供便捷的购物体验.
+
+效果截图:
+
+![](https://github.com/xiaoxianyu1998/three123pigs/blob/master/imgs/QQ%E5%9B%BE%E7%89%8720210127154659.jpg)
+
+
+
+![](https://github.com/xiaoxianyu1998/three123pigs/blob/master/imgs/QQ%E5%9B%BE%E7%89%8720210127154704.jpg)
+
+
+
+![](https://github.com/xiaoxianyu1998/three123pigs/blob/master/imgs/QQ%E5%9B%BE%E7%89%8720210127154707.jpg)
+
+
+
+![](https://github.com/xiaoxianyu1998/three123pigs/blob/master/imgs/QQ%E5%9B%BE%E7%89%8720210127154721.jpg)
+
+
 
 团队成员:王文钰,石雨清,刘双双
 
