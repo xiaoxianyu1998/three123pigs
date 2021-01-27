@@ -98,8 +98,6 @@ export default {
 	
 }
 
-
-
 /* 轮播图 */
 .wrap {
 	padding: 40rpx;
