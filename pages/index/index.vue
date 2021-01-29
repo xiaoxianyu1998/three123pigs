@@ -1,17 +1,10 @@
 <template>
 	<view class="content">
-		<!-- 头部 -->
+		<!-- 头部定位以及搜索框 -->
 		<view class="header">
-			<u-icon name="map-fill" color="#333" size="28"></u-icon>
-			<text>上海大江商厦</text>
+			<text>奥林匹克花园</text>
+			<u-icon class="local" name="arrow-down" color="#333" size="28"></u-icon>
 			<u-search class="search" placeholder="金龙鱼油99元2桶" v-model="keyword"></u-search>
-		</view>
-
-		<!-- 导航 -->
-		<view class="navigation">
-			<text>年货大街</text>
-			<text>多点超市</text>
-			<text>物美商城</text>
 		</view>
 
 		<!-- 轮播图 -->
@@ -23,6 +16,7 @@
 </template>
 
 <script>
+import request from '../../utils/request.js';
 export default {
 	data() {
 		return {
@@ -75,31 +69,25 @@ export default {
 			current: 0
 		};
 	},
-	onLoad() {},
-	methods: {}
+	methods: {
+	}
 };
 </script>
 
 <style lang="scss">
 /* 头部 */
 .header {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
+	margin-left: 20rpx;
 }
-
-.search {
-	margin-left: 80rpx;
+.header text {
+	margin-bottom: 30rpx;
 }
-
-/* 导航 */
-.navigation{
-	
+.local {
+	margin-left: 14rpx;
 }
 
 /* 轮播图 */
 .wrap {
-	padding: 40rpx;
+	margin: 30rpx;
 }
 </style>

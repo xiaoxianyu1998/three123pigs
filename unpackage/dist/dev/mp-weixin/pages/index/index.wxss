@@ -27,26 +27,16 @@
 /* 文章场景相关 */
 /* 头部 */
 .header {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-          justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-          align-items: center;
+  margin-left: 20rpx;
 }
-.search {
-  margin-left: 80rpx;
+.header text {
+  margin-bottom: 30rpx;
 }
-/* 导航 */
+.local {
+  margin-left: 14rpx;
+}
 /* 轮播图 */
 .wrap {
-  padding: 40rpx;
+  margin: 30rpx;
 }
 
