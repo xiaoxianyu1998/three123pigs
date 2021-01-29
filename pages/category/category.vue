@@ -58,7 +58,7 @@
 							<!-- <sl-filter :themeColor="themeColor" :menuList="menuList" @result="result"></sl-filter> -->
 							<view class="filter" @click="show = true">打开</view>
 							<u-popup v-model="show" mode="right" height="100%" width="90%">
-								<view>出淤泥而不染，濯清涟而不妖</view>
+								<sl-filter/>
 							</u-popup>
 						</view>
 						<view class="navItem">2222</view>
@@ -100,11 +100,11 @@
 </template>
 
 <script>
-	// import slFilter from '../../components/sl-filter/filter-view.vue'; 
+	import slFilter from '../../components/slFilter/slFilter.vue'; 
 	export default {
-		// components:{
-		// 	"sl-filter":slFilter
-		// },
+		components:{
+			"sl-filter":slFilter
+		},
 		data() {
 			return {
 				show:false,
