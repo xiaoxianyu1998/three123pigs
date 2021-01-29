@@ -4,8 +4,12 @@
     "ignore": []
   },
   "setting": {
+<<<<<<< HEAD
     "urlCheck": false,
     "es6": true
+=======
+    "urlCheck": false
+>>>>>>> xiaoshi
   },
   "compileType": "miniprogram",
   "libVersion": "",

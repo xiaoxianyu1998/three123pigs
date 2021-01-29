@@ -4,7 +4,8 @@
   "description": "",
   "main": "main.js",
   "dependencies": {
-    "@dcloudio/uni-helper-json": "^1.0.11"
+    "@dcloudio/uni-helper-json": "^1.0.11",
+    "uview-ui": "^1.8.3"
   },
   "devDependencies": {
     "@types/html5plus": "^1.0.1",
