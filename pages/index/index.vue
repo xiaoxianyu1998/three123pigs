@@ -99,16 +99,15 @@ export default {
 		};
 	},
 	methods: {
+		//发送请求 获取产品列表数据
 		async getCateListData() {
-			wx.showLoading({
-				title: '正在加载中'
-			});
 			let cateListData = await request('/production');
+			console.log(cateListData);
 			this.cateList = await cateListData;
-			wx.hideLoading();
 		}
 	},
 	mounted() {
+		//调用函数 初始化页面
 		this.getCateListData();
 	}
 };

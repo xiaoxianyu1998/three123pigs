@@ -263,16 +263,15 @@ var _request = _interopRequireDefault(__webpack_require__(/*! ../../utils/reques
 
   },
   methods: {
-    getCateListData: function getCateListData() {var _this = this;return _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee() {var cateListData;return _regenerator.default.wrap(function _callee$(_context) {while (1) {switch (_context.prev = _context.next) {case 0:
-                wx.showLoading({
-                  title: '正在加载中' });_context.next = 3;return (
-
-                  (0, _request.default)('/production'));case 3:cateListData = _context.sent;_context.next = 6;return (
-                  cateListData);case 6:_this.cateList = _context.sent;
-                wx.hideLoading();case 8:case "end":return _context.stop();}}}, _callee);}))();
+    //发送请求 获取产品列表数据
+    getCateListData: function getCateListData() {var _this = this;return _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee() {var cateListData;return _regenerator.default.wrap(function _callee$(_context) {while (1) {switch (_context.prev = _context.next) {case 0:_context.next = 2;return (
+                  (0, _request.default)('/production'));case 2:cateListData = _context.sent;
+                console.log(cateListData);_context.next = 6;return (
+                  cateListData);case 6:_this.cateList = _context.sent;case 7:case "end":return _context.stop();}}}, _callee);}))();
     } },
 
   mounted: function mounted() {
+    //调用函数 初始化页面
     this.getCateListData();
   } };exports.default = _default;
 
