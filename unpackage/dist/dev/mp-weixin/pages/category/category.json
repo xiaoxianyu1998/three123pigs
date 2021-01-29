@@ -1,4 +1,11 @@
 {
   "navigationBarTitleText": "",
-  "enablePullDownRefresh": false
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-search": "/node-modules/uview-ui/components/u-search/u-search",
+    "u-dropdown": "/node-modules/uview-ui/components/u-dropdown/u-dropdown",
+    "u-dropdown-item": "/node-modules/uview-ui/components/u-dropdown-item/u-dropdown-item",
+    "u-popup": "/node-modules/uview-ui/components/u-popup/u-popup",
+    "sl-filter": "/components/slFilter/slFilter"
+  }
 }

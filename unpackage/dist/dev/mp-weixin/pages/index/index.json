@@ -1,13 +1,7 @@
 {
-<<<<<<< HEAD
-  "navigationBarTitleText": "uni-app",
   "usingComponents": {
-    "u-icon": "/uview-ui/components/u-icon/u-icon",
-    "u-search": "/uview-ui/components/u-search/u-search",
-    "u-swiper": "/uview-ui/components/u-swiper/u-swiper"
-=======
-  "usingComponents": {
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon",
+    "u-search": "/node-modules/uview-ui/components/u-search/u-search",
     "u-swiper": "/node-modules/uview-ui/components/u-swiper/u-swiper"
->>>>>>> xiaoshi
   }
 }

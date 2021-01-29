@@ -10,8 +10,6 @@
     "navigationBarBackgroundColor": "#F8F8F8",
     "backgroundColor": "#F8F8F8"
   },
-<<<<<<< HEAD
-=======
   "tabBar": {
     "color": "#555",
     "selectedColor": "#D43C33",
@@ -42,6 +40,6 @@
       }
     ]
   },
->>>>>>> xiaoshi
-  "usingComponents": {}
+  "usingComponents": {},
+  "sitemapLocation": "sitemap9.json"
 }
