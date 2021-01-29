@@ -7804,9 +7804,9 @@ module.exports = g;
 
 /***/ }),
 /* 4 */
-/*!*********************************************!*\
-  !*** D:/syq/uni-app/uni-project/pages.json ***!
-  \*********************************************/
+/*!****************************!*\
+  !*** E:/uniapp/pages.json ***!
+  \****************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -7944,6 +7944,16 @@ function normalizeComponent (
   }
 }
 
+
+/***/ }),
+/* 11 */
+/*!***********************************!*\
+  !*** E:/uniapp/uview-ui/index.js ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed (from ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js):\nError: ENOENT: no such file or directory, open 'E:\\uniapp\\uview-ui\\index.js'");
 
 /***/ })
 ]]);
