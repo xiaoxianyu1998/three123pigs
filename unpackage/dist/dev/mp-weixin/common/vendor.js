@@ -7804,9 +7804,9 @@ module.exports = g;
 
 /***/ }),
 /* 4 */
-/*!*************************************************!*\
-  !*** E:/uniapp-project/three123pigs/pages.json ***!
-  \*************************************************/
+/*!****************************!*\
+  !*** E:/uniapp/pages.json ***!
+  \****************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -7947,9 +7947,9 @@ function normalizeComponent (
 
 /***/ }),
 /* 11 */
-/*!********************************************************!*\
-  !*** E:/uniapp-project/three123pigs/uview-ui/index.js ***!
-  \********************************************************/
+/*!***********************************!*\
+  !*** E:/uniapp/uview-ui/index.js ***!
+  \***********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8098,9 +8098,9 @@ var install = function install(Vue) {
 
 /***/ }),
 /* 12 */
-/*!*******************************************************************!*\
-  !*** E:/uniapp-project/three123pigs/uview-ui/libs/mixin/mixin.js ***!
-  \*******************************************************************/
+/*!**********************************************!*\
+  !*** E:/uniapp/uview-ui/libs/mixin/mixin.js ***!
+  \**********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8171,9 +8171,9 @@ var install = function install(Vue) {
 
 /***/ }),
 /* 13 */
-/*!*********************************************************************!*\
-  !*** E:/uniapp-project/three123pigs/uview-ui/libs/request/index.js ***!
-  \*********************************************************************/
+/*!************************************************!*\
+  !*** E:/uniapp/uview-ui/libs/request/index.js ***!
+  \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8351,9 +8351,9 @@ new Request();exports.default = _default;
 
 /***/ }),
 /* 14 */
-/*!**************************************************************************!*\
-  !*** E:/uniapp-project/three123pigs/uview-ui/libs/function/deepMerge.js ***!
-  \**************************************************************************/
+/*!*****************************************************!*\
+  !*** E:/uniapp/uview-ui/libs/function/deepMerge.js ***!
+  \*****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8391,9 +8391,9 @@ deepMerge;exports.default = _default;
 
 /***/ }),
 /* 15 */
-/*!**************************************************************************!*\
-  !*** E:/uniapp-project/three123pigs/uview-ui/libs/function/deepClone.js ***!
-  \**************************************************************************/
+/*!*****************************************************!*\
+  !*** E:/uniapp/uview-ui/libs/function/deepClone.js ***!
+  \*****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8424,9 +8424,9 @@ deepClone;exports.default = _default;
 
 /***/ }),
 /* 16 */
-/*!*********************************************************************!*\
-  !*** E:/uniapp-project/three123pigs/uview-ui/libs/function/test.js ***!
-  \*********************************************************************/
+/*!************************************************!*\
+  !*** E:/uniapp/uview-ui/libs/function/test.js ***!
+  \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8665,9 +8665,9 @@ function code(value) {var len = arguments.length > 1 && arguments[1] !== undefin
 
 /***/ }),
 /* 17 */
-/*!****************************************************************************!*\
-  !*** E:/uniapp-project/three123pigs/uview-ui/libs/function/queryParams.js ***!
-  \****************************************************************************/
+/*!*******************************************************!*\
+  !*** E:/uniapp/uview-ui/libs/function/queryParams.js ***!
+  \*******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8733,9 +8733,9 @@ queryParams;exports.default = _default;
 
 /***/ }),
 /* 18 */
-/*!**********************************************************************!*\
-  !*** E:/uniapp-project/three123pigs/uview-ui/libs/function/route.js ***!
-  \**********************************************************************/
+/*!*************************************************!*\
+  !*** E:/uniapp/uview-ui/libs/function/route.js ***!
+  \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9654,9 +9654,9 @@ if (hadRuntime) {
 
 /***/ }),
 /* 22 */
-/*!***************************************************************************!*\
-  !*** E:/uniapp-project/three123pigs/uview-ui/libs/function/timeFormat.js ***!
-  \***************************************************************************/
+/*!******************************************************!*\
+  !*** E:/uniapp/uview-ui/libs/function/timeFormat.js ***!
+  \******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9715,9 +9715,9 @@ timeFormat;exports.default = _default;
 
 /***/ }),
 /* 23 */
-/*!*************************************************************************!*\
-  !*** E:/uniapp-project/three123pigs/uview-ui/libs/function/timeFrom.js ***!
-  \*************************************************************************/
+/*!****************************************************!*\
+  !*** E:/uniapp/uview-ui/libs/function/timeFrom.js ***!
+  \****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9772,9 +9772,9 @@ timeFrom;exports.default = _default;
 
 /***/ }),
 /* 24 */
-/*!******************************************************************************!*\
-  !*** E:/uniapp-project/three123pigs/uview-ui/libs/function/colorGradient.js ***!
-  \******************************************************************************/
+/*!*********************************************************!*\
+  !*** E:/uniapp/uview-ui/libs/function/colorGradient.js ***!
+  \*********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9915,9 +9915,9 @@ function colorToRgba(color) {var alpha = arguments.length > 1 && arguments[1] !=
 
 /***/ }),
 /* 25 */
-/*!*********************************************************************!*\
-  !*** E:/uniapp-project/three123pigs/uview-ui/libs/function/guid.js ***!
-  \*********************************************************************/
+/*!************************************************!*\
+  !*** E:/uniapp/uview-ui/libs/function/guid.js ***!
+  \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9966,9 +9966,9 @@ guid;exports.default = _default;
 
 /***/ }),
 /* 26 */
-/*!**********************************************************************!*\
-  !*** E:/uniapp-project/three123pigs/uview-ui/libs/function/color.js ***!
-  \**********************************************************************/
+/*!*************************************************!*\
+  !*** E:/uniapp/uview-ui/libs/function/color.js ***!
+  \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10013,9 +10013,9 @@ color;exports.default = _default;
 
 /***/ }),
 /* 27 */
-/*!**************************************************************************!*\
-  !*** E:/uniapp-project/three123pigs/uview-ui/libs/function/type2icon.js ***!
-  \**************************************************************************/
+/*!*****************************************************!*\
+  !*** E:/uniapp/uview-ui/libs/function/type2icon.js ***!
+  \*****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10058,9 +10058,9 @@ type2icon;exports.default = _default;
 
 /***/ }),
 /* 28 */
-/*!****************************************************************************!*\
-  !*** E:/uniapp-project/three123pigs/uview-ui/libs/function/randomArray.js ***!
-  \****************************************************************************/
+/*!*******************************************************!*\
+  !*** E:/uniapp/uview-ui/libs/function/randomArray.js ***!
+  \*******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10075,9 +10075,9 @@ randomArray;exports.default = _default;
 
 /***/ }),
 /* 29 */
-/*!************************************************************************!*\
-  !*** E:/uniapp-project/three123pigs/uview-ui/libs/function/addUnit.js ***!
-  \************************************************************************/
+/*!***************************************************!*\
+  !*** E:/uniapp/uview-ui/libs/function/addUnit.js ***!
+  \***************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10093,9 +10093,9 @@ function addUnit() {var value = arguments.length > 0 && arguments[0] !== undefin
 
 /***/ }),
 /* 30 */
-/*!***********************************************************************!*\
-  !*** E:/uniapp-project/three123pigs/uview-ui/libs/function/random.js ***!
-  \***********************************************************************/
+/*!**************************************************!*\
+  !*** E:/uniapp/uview-ui/libs/function/random.js ***!
+  \**************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10113,9 +10113,9 @@ random;exports.default = _default;
 
 /***/ }),
 /* 31 */
-/*!*********************************************************************!*\
-  !*** E:/uniapp-project/three123pigs/uview-ui/libs/function/trim.js ***!
-  \*********************************************************************/
+/*!************************************************!*\
+  !*** E:/uniapp/uview-ui/libs/function/trim.js ***!
+  \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10138,9 +10138,9 @@ trim;exports.default = _default;
 
 /***/ }),
 /* 32 */
-/*!**********************************************************************!*\
-  !*** E:/uniapp-project/three123pigs/uview-ui/libs/function/toast.js ***!
-  \**********************************************************************/
+/*!*************************************************!*\
+  !*** E:/uniapp/uview-ui/libs/function/toast.js ***!
+  \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10158,9 +10158,9 @@ toast;exports.default = _default;
 
 /***/ }),
 /* 33 */
-/*!**************************************************************************!*\
-  !*** E:/uniapp-project/three123pigs/uview-ui/libs/function/getParent.js ***!
-  \**************************************************************************/
+/*!*****************************************************!*\
+  !*** E:/uniapp/uview-ui/libs/function/getParent.js ***!
+  \*****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10215,9 +10215,9 @@ function getParent(name, keys) {
 
 /***/ }),
 /* 34 */
-/*!************************************************************************!*\
-  !*** E:/uniapp-project/three123pigs/uview-ui/libs/function/$parent.js ***!
-  \************************************************************************/
+/*!***************************************************!*\
+  !*** E:/uniapp/uview-ui/libs/function/$parent.js ***!
+  \***************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10243,9 +10243,9 @@ function $parent() {var name = arguments.length > 0 && arguments[0] !== undefine
 
 /***/ }),
 /* 35 */
-/*!********************************************************************!*\
-  !*** E:/uniapp-project/three123pigs/uview-ui/libs/function/sys.js ***!
-  \********************************************************************/
+/*!***********************************************!*\
+  !*** E:/uniapp/uview-ui/libs/function/sys.js ***!
+  \***********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10261,9 +10261,9 @@ function sys() {
 
 /***/ }),
 /* 36 */
-/*!*************************************************************************!*\
-  !*** E:/uniapp-project/three123pigs/uview-ui/libs/function/debounce.js ***!
-  \*************************************************************************/
+/*!****************************************************!*\
+  !*** E:/uniapp/uview-ui/libs/function/debounce.js ***!
+  \****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10300,9 +10300,9 @@ debounce;exports.default = _default;
 
 /***/ }),
 /* 37 */
-/*!*************************************************************************!*\
-  !*** E:/uniapp-project/three123pigs/uview-ui/libs/function/throttle.js ***!
-  \*************************************************************************/
+/*!****************************************************!*\
+  !*** E:/uniapp/uview-ui/libs/function/throttle.js ***!
+  \****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10342,9 +10342,9 @@ throttle;exports.default = _default;
 
 /***/ }),
 /* 38 */
-/*!*********************************************************************!*\
-  !*** E:/uniapp-project/three123pigs/uview-ui/libs/config/config.js ***!
-  \*********************************************************************/
+/*!************************************************!*\
+  !*** E:/uniapp/uview-ui/libs/config/config.js ***!
+  \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10365,9 +10365,9 @@ var version = '1.8.3';var _default =
 
 /***/ }),
 /* 39 */
-/*!*********************************************************************!*\
-  !*** E:/uniapp-project/three123pigs/uview-ui/libs/config/zIndex.js ***!
-  \*********************************************************************/
+/*!************************************************!*\
+  !*** E:/uniapp/uview-ui/libs/config/zIndex.js ***!
+  \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10391,100 +10391,6 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   topTips: 975,
   sticky: 970,
   indexListSticky: 965 };exports.default = _default;
-
-/***/ }),
-/* 40 */,
-/* 41 */,
-/* 42 */,
-/* 43 */,
-/* 44 */,
-/* 45 */,
-/* 46 */,
-/* 47 */
-/*!******************************************************!*\
-  !*** E:/uniapp-project/three123pigs/utils/config.js ***!
-  \******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = {
-
-
-
-
-
-  host: 'http://localhost:3000' };exports.default = _default;
-
-/***/ }),
-/* 48 */,
-/* 49 */,
-/* 50 */,
-/* 51 */,
-/* 52 */,
-/* 53 */,
-/* 54 */,
-/* 55 */,
-/* 56 */,
-/* 57 */,
-/* 58 */,
-/* 59 */,
-/* 60 */,
-/* 61 */,
-/* 62 */,
-/* 63 */,
-/* 64 */,
-/* 65 */,
-/* 66 */,
-/* 67 */,
-/* 68 */,
-/* 69 */,
-/* 70 */,
-/* 71 */,
-/* 72 */,
-/* 73 */,
-/* 74 */,
-/* 75 */,
-/* 76 */,
-/* 77 */,
-/* 78 */,
-/* 79 */,
-/* 80 */,
-/* 81 */,
-/* 82 */,
-/* 83 */,
-/* 84 */,
-/* 85 */,
-/* 86 */,
-/* 87 */,
-/* 88 */,
-/* 89 */,
-/* 90 */
-/*!*******************************************************!*\
-  !*** E:/uniapp-project/three123pigs/utils/request.js ***!
-  \*******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _config = _interopRequireDefault(__webpack_require__(/*! ./config.js */ 47));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var _default =
-
-function _default(url) {var data = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};var method = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 'GET';
-  return new Promise(function (reslove, reject) {
-    uni.request({
-      url: _config.default.host + url,
-      data: data,
-      method: method,
-      success: function success(res) {
-        reslove(res.data);
-      },
-      fail: function fail(err) {
-        reject(err);
-      } });
-
-  });
-};exports.default = _default;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ })
 ]]);
