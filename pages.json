@@ -1,4 +1,10 @@
 {
+	"globalStyle" : {
+	    "navigationBarTextStyle" : "black",
+	    "navigationBarTitleText" : "多点超市",
+	    "navigationBarBackgroundColor" : "#F8F8F8",
+	    "backgroundColor" : "#F8F8F8"
+	},
 	"easycom": {
 		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
 	},
@@ -11,20 +17,15 @@
 		}
 	    ,{
             "path" : "pages/category/category",
-            "style" :                                                                                    
-            {
+            "style" :{
+				
                 "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
             
         }
     ],
-	"globalStyle" : {
-	    "navigationBarTextStyle" : "black",
-	    "navigationBarTitleText" : "uni-app",
-	    "navigationBarBackgroundColor" : "#F8F8F8",
-	    "backgroundColor" : "#F8F8F8"
-	},
+
 	"tabBar": {
 			"color":"#555",
 			"selectedColor":"#D43C33",
