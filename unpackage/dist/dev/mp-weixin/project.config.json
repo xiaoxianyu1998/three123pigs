@@ -4,11 +4,16 @@
     "ignore": []
   },
   "setting": {
+<<<<<<< HEAD
     "urlCheck": false
+=======
+    "urlCheck": false,
+    "es6": true
+>>>>>>> a0295d0d8622c13567b670191345c95c115ad537
   },
   "compileType": "miniprogram",
   "libVersion": "",
-  "appid": "touristappid",
+  "appid": "wxdcdeeb9d3fdc56d4",
   "projectname": "uni-project",
   "condition": {
     "search": {
