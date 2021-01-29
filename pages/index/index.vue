@@ -10,6 +10,33 @@
 		<!-- 轮播图 -->
 		<view class="wrap"><u-swiper :list="pictures"></u-swiper></view>
 
+		<!-- 产品导航 -->
+		<scroll-view scroll-x="true" class="navScroll" enable-flex v-if="result">
+			<view class="navItem" :class="{ activeClass: navIndex === 0 }" @click="changeNav(0, 0)">好货秒杀</view>
+			<view
+				class="navItem"
+				:class="{ activeClass: navIndex === index + 1 }"
+				@click="changeNav(index + 1, navItem.L1Id)"
+				v-for="(navItem, index) in indexData.kingKongModule.kingKongList"
+				:key="navItem.L1Id"
+			>
+				{{ navItem.text }}
+			</view>
+		</scroll-view>
+
+		<!-- 产品列表 -->
+		<div class="proList">
+			<div class="proItem" v-for="(proItem, index) in result" :key="index">
+				<image class="proBigImg" :src="proItem.images.small"></image>
+				<scroll-view scroll-x class="proScroll">
+					<view class="scrollItem" v-for="(item, index) in proItem.itemList" :key="item.id">
+						<image :src="item.primaryPicUrl"></image>
+						<view>{{ item.name }}</view>
+					</view>
+				</scroll-view>
+			</div>
+		</div>
+
 		<!-- 底部导航栏 -->
 		<u-tabbar v-model="current" :list="list" :mid-button="true"></u-tabbar>
 	</view>
@@ -66,10 +93,23 @@ export default {
 					customIcon: false
 				}
 			],
-			current: 0
+			current: 0,
+			//产品列表数据
+			cateList: []
 		};
 	},
 	methods: {
+		async getCateListData() {
+			wx.showLoading({
+				title: '正在加载中'
+			});
+			let cateListData = await request('/production');
+			this.cateList = await cateListData;
+			wx.hideLoading();
+		}
+	},
+	mounted() {
+		this.getCateListData();
 	}
 };
 </script>

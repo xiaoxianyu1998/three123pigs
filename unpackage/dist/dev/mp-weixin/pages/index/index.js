@@ -105,7 +105,7 @@ try {
       return __webpack_require__.e(/*! import() | uview-ui/components/u-swiper/u-swiper */ "uview-ui/components/u-swiper/u-swiper").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-swiper/u-swiper.vue */ 64))
     },
     uTabbar: function() {
-      return Promise.all(/*! import() | uview-ui/components/u-tabbar/u-tabbar */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uview-ui/components/u-tabbar/u-tabbar")]).then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-tabbar/u-tabbar.vue */ 71))
+      return __webpack_require__.e(/*! import() | uview-ui/components/u-tabbar/u-tabbar */ "uview-ui/components/u-tabbar/u-tabbar").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-tabbar/u-tabbar.vue */ 71))
     }
   }
 } catch (e) {
@@ -162,7 +162,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _regenerator = _interopRequireDefault(__webpack_require__(/*! ./node_modules/@babel/runtime/regenerator */ 19));
 
 
 
@@ -180,26 +180,53 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 
 
-var _request = _interopRequireDefault(__webpack_require__(/*! ../../utils/request.js */ 46));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };} //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-var _default = { data: function data() {return { //搜索关键字
-      keyword: '', //轮播图数据
-      pictures: [{ image: 'https://cdn.uviewui.com/uview/swiper/1.jpg', title: '昨夜星辰昨夜风，画楼西畔桂堂东' }, { image: 'https://cdn.uviewui.com/uview/swiper/2.jpg', title: '身无彩凤双飞翼，心有灵犀一点通' }, { image: 'https://cdn.uviewui.com/uview/swiper/3.jpg', title: '谁念西风独自凉，萧萧黄叶闭疏窗，沉思往事立残阳' }],
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var _request = _interopRequireDefault(__webpack_require__(/*! ../../utils/request.js */ 90));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {try {var info = gen[key](arg);var value = info.value;} catch (error) {reject(error);return;}if (info.done) {resolve(value);} else {Promise.resolve(value).then(_next, _throw);}}function _asyncToGenerator(fn) {return function () {var self = this,args = arguments;return new Promise(function (resolve, reject) {var gen = fn.apply(self, args);function _next(value) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);}function _throw(err) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);}_next(undefined);});};}var _default =
+{
+  data: function data() {
+    return {
+      //搜索关键字
+      keyword: '',
+      //轮播图数据
+      pictures: [
+      {
+        image: 'https://cdn.uviewui.com/uview/swiper/1.jpg',
+        title: '昨夜星辰昨夜风，画楼西畔桂堂东' },
+
+      {
+        image: 'https://cdn.uviewui.com/uview/swiper/2.jpg',
+        title: '身无彩凤双飞翼，心有灵犀一点通' },
+
+      {
+        image: 'https://cdn.uviewui.com/uview/swiper/3.jpg',
+        title: '谁念西风独自凉，萧萧黄叶闭疏窗，沉思往事立残阳' }],
+
 
       //底部导航栏数据
       list: [
@@ -230,10 +257,24 @@ var _default = { data: function data() {return { //搜索关键字
         customIcon: false }],
 
 
-      current: 0 };
+      current: 0,
+      //产品列表数据
+      cateList: [] };
 
   },
-  methods: {} };exports.default = _default;
+  methods: {
+    getCateListData: function getCateListData() {var _this = this;return _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee() {var cateListData;return _regenerator.default.wrap(function _callee$(_context) {while (1) {switch (_context.prev = _context.next) {case 0:
+                wx.showLoading({
+                  title: '正在加载中' });_context.next = 3;return (
+
+                  (0, _request.default)('/production'));case 3:cateListData = _context.sent;_context.next = 6;return (
+                  cateListData);case 6:_this.cateList = _context.sent;
+                wx.hideLoading();case 8:case "end":return _context.stop();}}}, _callee);}))();
+    } },
+
+  mounted: function mounted() {
+    this.getCateListData();
+  } };exports.default = _default;
 
 /***/ }),
 
