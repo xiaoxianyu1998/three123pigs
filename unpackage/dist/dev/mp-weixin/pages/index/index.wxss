@@ -39,4 +39,27 @@
 .wrap {
   margin: 30rpx;
 }
+/* 产品列表 */
+.navScroll {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  white-space: nowrap;
+  height: 80rpx;
+  background-color: #DD524D;
+}
+.navItem {
+  display: inline-block;
+  width: 140rpx;
+  height: 80rpx;
+  color: #C0C0C0;
+  text-align: center;
+  line-height: 80rpx;
+  font-size: 26rpx;
+  margin-right: 16rpx;
+}
+.activeClass {
+  color: #fff;
+  font-weight: bold;
+}
 

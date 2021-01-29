@@ -10,14 +10,36 @@
 		<!-- 轮播图 -->
 		<view class="wrap"><u-swiper :list="pictures"></u-swiper></view>
 
-		
+		<!-- 产品导航 -->
+		<scroll-view scroll-x="true" class="navScroll" enable-flex v-if="cateList">
+			<view class="navItem" :class="{ activeClass: navIndex === 0 }" @click="changeNav(0, 0)">好货秒杀</view>
+			<view
+				class="navItem"
+				:class="{ activeClass: navIndex === index + 1 }"
+				@click="changeNav(index + 1, navItem.id)"
+				v-for="(navItem, index) in cateList"
+				:key="navItem.id">
+				{{ navItem.title }}
+			</view>
+		</scroll-view>
 
-		<!-- 底部导航栏 -->
-		<u-tabbar v-model="current" :list="list" :mid-button="true"></u-tabbar>
+		<!-- 产品列表 -->
+		<div class="proList">
+			<div class="proItem" v-for="(proItem, index) in result" :key="index">
+				<image class="proBigImg" :src="proItem.images.small"></image>
+				<scroll-view scroll-x class="proScroll">
+					<view class="scrollItem" v-for="(item, index) in proItem.itemList" :key="item.id">
+						<image :src="item.primaryPicUrl"></image>
+						<view>{{ item.name }}</view>
+					</view>
+				</scroll-view>
+			</div>
+		</div>
 	</view>
 </template>
 
 <script>
+import request from '../../utils/request.js';
 export default {
 	data() {
 		return {
@@ -38,36 +60,6 @@ export default {
 					title: '谁念西风独自凉，萧萧黄叶闭疏窗，沉思往事立残阳'
 				}
 			],
-			//底部导航栏数据
-			list: [
-				{
-					iconPath: 'home',
-					selectedIconPath: 'home-fill',
-					text: '首页',
-					customIcon: false
-				},
-				{
-					iconPath: 'grid',
-					selectedIconPath: 'grid-fill',
-					text: '分类',
-					customIcon: false
-				},
-				{
-					iconPath: 'shopping-cart',
-					selectedIconPath: 'shopping-cart-fill',
-					text: '购物车',
-					count: 2,
-					customIcon: false
-				},
-				{
-					iconPath: 'account',
-					selectedIconPath: 'account-fill',
-					text: '我的',
-					isDot: false,
-					customIcon: false
-				}
-			],
-			current: 0,
 			//产品列表数据
 			cateList: [],
 			//导航索引值
@@ -75,7 +67,22 @@ export default {
 			navId: 0
 		};
 	},
-	
+	methods: {
+		//发送请求 获取产品列表数据
+		async getCateListData() {
+			let cateListData = await request('/production');
+			console.log(cateListData);
+			this.cateList = await cateListData;
+		},
+		//响应式数据 修改设置的下标
+		changeNav(navIndex, navId) {
+			navId !== this.navId && ((this.navIndex = navIndex), (this.navId = navId));
+		}
+	},
+	mounted() {
+		//调用函数 初始化页面
+		this.getCateListData();
+	}
 };
 </script>
 
@@ -96,5 +103,25 @@ export default {
 	margin: 30rpx;
 }
 
-
+/* 产品列表 */
+.navScroll {
+	display: flex;
+	white-space: nowrap;
+	height: 80rpx;
+	background-color: #DD524D;
+}	
+.navItem {
+	display: inline-block;
+	width: 140rpx;
+	height: 80rpx;
+	color: #C0C0C0;
+	text-align: center;;
+	line-height: 80rpx;
+	font-size: 26rpx;
+	margin-right: 16rpx;
+}		
+.activeClass {
+    color: #fff;
+	font-weight: bold;
+}
 </style>
